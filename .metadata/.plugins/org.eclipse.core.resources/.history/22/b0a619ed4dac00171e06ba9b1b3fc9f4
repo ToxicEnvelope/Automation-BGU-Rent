@@ -1,0 +1,12 @@
+package il.co.bgurent.pageobject;
+
+import org.openqa.selenium.WebElement;
+
+public class MainPage {
+
+	// FILEDS
+	WebElement mainLoader;
+	
+	
+	
+}

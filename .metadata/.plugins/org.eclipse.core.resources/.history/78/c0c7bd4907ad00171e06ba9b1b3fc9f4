@@ -1,0 +1,23 @@
+package il.co.bgurent.pageobject;
+
+import java.util.List;
+import java.util.ArrayList;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage extends BasePage {
+
+	// FIEDLS
+	List<WebElement> formElementsList = new ArrayList<WebElement>();
+	// CONSTRUCTOR
+	public LoginPage(WebDriver driver) {
+		super(driver);
+		this.formElementsList =
+				driver.findElement(By.xpath("//form[@name='login']"));
+	}
+	// GETTERS
+	
+	// PUBLIC METHODS
+}

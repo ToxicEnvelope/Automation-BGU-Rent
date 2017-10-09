@@ -1,0 +1,14 @@
+package il.co.bgurent.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Discovery {
+
+	// FIELDS
+	WebDriver driver;
+	WebElement elem;
+	
+	
+	
+}

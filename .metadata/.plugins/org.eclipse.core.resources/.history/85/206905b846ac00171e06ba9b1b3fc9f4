@@ -1,0 +1,5 @@
+package il.co.bgurent.pageobject;
+
+public abstract class BasePage {
+
+}

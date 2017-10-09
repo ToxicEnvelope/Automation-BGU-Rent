@@ -1,0 +1,44 @@
+package il.co.bgurent.tests;
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+public class Discovery {
+
+	// FIELDS
+	WebDriver driver;
+	WebElement elem;
+	
+	
+	final String baseUrl = "http://www.bgurent.co.il";
+	
+	// Before the tests are running
+	@BeforeClass
+	public void setUp() {
+		String engine, wdPath;
+		engine = "";
+		wdPath = "";
+		System.setProperty(engine, wdPath);
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito --start-fullscreen");
+		driver = new ChromeDriver(options);
+		driver.get(baseUrl);
+		driver.manage().timeouts().implicitlyWait(2500, TimeUnit.MILLISECONDS);
+	}
+	
+	// Before the tests are running
+	@AfterClass 
+	public void tearDown() {
+		if(driver != null) {
+			driver.manage().deleteAllCookies();
+			driver.quit();
+		}
+	}
+}

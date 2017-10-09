@@ -1,0 +1,41 @@
+package il.co.bgurent.pageobject;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class MainPage extends BasePage {
+
+	// FILEDS
+	WebElement mainLoader;
+	WebElement loaderLable;
+	WebElement loginPage;
+	WebElement registerPage;
+	
+	
+	
+	// CONSTRUCTOR
+	public MainPage(WebDriver driver) {
+		super(driver);
+		 this.mainLoader = 
+				 driver.findElement(By.cssSelector("i.welcome-load.loader"));
+		this.loaderLable = 
+				driver.findElement(By.cssSelector("i>lable"));
+		 this.loginPage = 
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.login']"));
+		 this.registerPage = 
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.register']"));
+	}
+	
+	// PUBLIC METHODS
+	public void isLoaderDispayed() {
+		Assert.assertEquals("BGU Rent", loaderLable.getText());
+		Assert.assertTrue(waitUntilElementLocatedByClassName(mainLoader.getAttribute("class")));
+	}
+	
+	public void makeLogin(String alias, String key) {
+		
+	}
+	
+}

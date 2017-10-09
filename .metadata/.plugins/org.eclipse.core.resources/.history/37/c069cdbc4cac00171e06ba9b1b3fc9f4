@@ -1,0 +1,125 @@
+package il.co.bgurent.pageobject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public abstract class BasePage {
+
+	// FIELDS
+	WebDriver _driver;
+	JavascriptExecutor _js;
+	
+	// CONSTRUCTOR
+	public BasePage(WebDriver driver) {
+		try {
+			if(driver != null) {
+				this._driver = driver;
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	
+	// GETTERS
+	public WebDriver getDriver() {
+		return _driver;
+	}
+	public JavascriptExecutor getJSExec() {
+		return _js;
+	}
+	
+	// SETTERS
+	protected void setDriver(WebDriver driver) {
+		try {
+			if(driver != null) {
+				this._driver = driver;
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	protected void setJSExec(WebDriver driver) {
+		try {
+			if(this._js == null && driver != null) {
+				this._js = (JavascriptExecutor) driver;
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	// PUBLIC METHODS
+	// Click on element
+	public void click(WebElement element) {
+		try {
+			if(element != null && element.isDisplayed()) {
+				element.click();
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	// Waits until element is clickable
+	public void waitUntilElementIsClickableByID(WebElement element) {
+		try {
+			if(waitUntilElementLocatedByID(element.getAttribute("id"))) {
+
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	
+	// Fill text 
+	public void fillText(WebElement element, String keyword) {
+		try {
+			if(element != null && keyword != "") {
+				if(element.getText().isEmpty()) {
+					element.sendKeys(keyword);
+				}
+				else {
+					element.clear();
+					element.sendKeys(keyword);
+				}
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	// Waits until an element is located By.id
+	private void waitUntilElementLocatedByID(String idAttribute) {
+		try {
+			if(idAttribute != null) {
+				 WebDriverWait wait = new WebDriverWait(this._driver, 10);				 
+				 wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id(idAttribute)));
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	// Waits until an element is located By.className
+	private boolean waitUntilElementLocatedByClassName(String clsAttribute) {
+		try {
+			if(clsAttribute != null) {
+				 WebDriverWait wait = new WebDriverWait(this._driver, 10);				 
+				 wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className(clsAttribute)));
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+			return false
+		}
+	}
+}

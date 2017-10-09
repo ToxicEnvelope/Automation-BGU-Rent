@@ -1,0 +1,14 @@
+package il.co.bgurent.pageobject;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage extends BasePage {
+
+	// FIEDLS
+	WebElement
+	// CONSTRUCTOR
+	public LoginPage(WebDriver driver) {
+		super(driver);
+		
+	}
+}

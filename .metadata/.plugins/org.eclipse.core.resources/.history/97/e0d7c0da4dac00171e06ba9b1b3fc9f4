@@ -1,0 +1,7 @@
+package il.co.bgurent.pageobject;
+
+public class MainPage {
+
+	// FILEDS
+	WebElememt loader;
+}

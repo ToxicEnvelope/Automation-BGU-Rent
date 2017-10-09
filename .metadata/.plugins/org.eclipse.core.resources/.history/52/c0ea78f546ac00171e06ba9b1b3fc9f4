@@ -1,0 +1,26 @@
+package il.co.bgurent.pageobject;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+
+public abstract class BasePage {
+
+	// FIELDS
+	WebDriver _driver;
+	JavascriptExecutor _js;
+	
+	// CONSTRUCTOR
+	public BasePage(WebDriver driver) {
+		try {
+			if(driver != null) {
+				
+			}
+			else {
+				
+			}
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+}
