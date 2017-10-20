@@ -1,0 +1,83 @@
+package il.co.bgurent.apis;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+public class SearchAPI extends AbstractAPIs {
+
+	// FIELDS
+	private int _rooms;
+	private int _rent;
+	private int _secId;
+	
+	
+	// CONSTRUCTOR
+	public SearchAPI(String uri) {
+		super(uri);
+	}
+	
+	// GETTERS
+	protected int getRooms() {
+		return _rooms;
+	}
+	protected int getRent() {
+		return _rent;
+	}
+	protected int getSectionID() {
+		return _secId;
+	}
+	// SETTERS
+	protected void setRooms(int rms) {
+		try {
+			if(rms >= 1) {
+				this._rooms = rms;
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	protected void setRent(int rnt) {
+		try {
+			if(rnt >= 1) {
+				this._rent = rnt;
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	protected void setSectionID(int secId) {
+		try {
+			if(secId >= 0 && secId <= 7) {
+				this._secId = secId;
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}	}
+	// INHERITED METHODS
+	// Send GET METHOD
+	protected void sendGET(int rent, int rooms, int section) {
+		try {
+			if(rooms >= 1 && rent >= 1 && (section >= 1 && section <= 7)) {
+				
+				// https://bgurent.co.il/api/search?rent=6000&rooms=1&section_id=1
+				String url = "https://bgurent.co.il/api/" + getUri() + "?rent=" + rent + "&rooms=" + rooms + "&section_id=" + section;
+				HttpClient client = new DefaultHttpClient();
+				HttpGet request = new HttpGet(url);
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	protected void sendGET(int a, int b) {}
+	protected void sendGET(int c) {}
+	// Send POST METHOD
+	protected void sendPOST(int rooms, int rent, int section) {}
+	protected void sendPOST(int a, int b) {}
+	protected void sendPOST(int c) {}
+
+}

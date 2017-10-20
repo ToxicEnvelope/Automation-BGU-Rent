@@ -1,0 +1,17 @@
+package il.co.bgurent.tests;
+
+import org.junit.BeforeClass;
+
+import il.co.bgurent.apis.SearchAPI;
+
+public class SearchAPITest {
+
+	
+	// FIELDS
+	SearchAPI api = new SearchAPI("search");
+	
+	@BeforeClass
+	public void startUp() {
+		api.sendGET(6000, 3, 5);
+	}
+}

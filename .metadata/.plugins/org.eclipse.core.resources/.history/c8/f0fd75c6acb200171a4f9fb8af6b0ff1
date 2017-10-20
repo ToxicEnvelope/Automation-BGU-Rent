@@ -1,0 +1,33 @@
+package il.co.bgurent.tests;
+
+import org.apache.xml.serializer.utils.Utils;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import il.co.bgurent.utils.helper.UIMap;
+
+public class BaseTest {
+
+	
+	static WebDriver driver;
+	final String DATA = "/src/il/co/bgurent/or/datafile.property";
+	final String LOC = "/";
+	static final UIMap dataMap = new UIMap( System.setProperty(System.getProperty("user.dir"), ) );
+	static final UIMap locMap = new UIMap(  );
+	
+
+	@BeforeClass
+	public void startUp() {
+		System.setProperty();
+	}
+	
+	@AfterClass
+	public void tearDown() {
+		if(driver != null) {
+			driver.manage().deleteAllCookies();
+			driver.quit();
+		} 
+			
+	}
+}

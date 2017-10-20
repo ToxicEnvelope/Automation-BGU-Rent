@@ -1,0 +1,34 @@
+package il.co.bgurent.tests;
+
+import org.apache.xml.serializer.utils.Utils;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import il.co.bgurent.utils.helper.UIMap;
+
+public class BaseTest {
+
+	
+	WebDriver driver;
+	
+
+	@BeforeClass
+	public void startUp() {
+		try {
+			String engine = UIMap.getData("chrome_engine");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	@AfterClass
+	public void tearDown() {
+		if(driver != null) {
+			driver.manage().deleteAllCookies();
+			driver.quit();
+		} 
+			
+	}
+}

@@ -1,0 +1,13 @@
+package il.co.bgurent.apis;
+
+
+import com.google.gson.JsonObject;
+
+
+
+public class SearchAPI extends AbstractAPIs {
+
+	
+	
+	
+}

@@ -1,0 +1,38 @@
+package il.co.bgurent.apis;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.google.gson.JsonObject;
+
+
+public class SearchAPI extends AbstractAPIs {
+
+	private final String USER_AGENT = "Mozilla/5.0";
+	
+	@Override
+	public void sendGet(String uri, String token, String contry) {
+		try {
+			
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void sendPost(String uri, String token, JsonObject data) {
+		try {
+		
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,45 @@
+package il.co.bgurent.apis;
+
+
+public abstract class AbstractAPIs {
+	
+	// FIELDS
+	private String _uri;
+	private String _userAgent = "Mozilla/5.0";
+	
+	// CONSTRUCTOR
+	public AbstractAPIs(String uri) {
+		if(uri != null && !uri.isEmpty()) {
+			
+		}
+	}
+	
+	// GETTERS
+	protected String getUserAgent() {
+		return _userAgent;
+	}
+	protected String getUri() {
+		return _uri;
+	}
+	// SETTERS
+	protected void setUri(String uri) {
+		try {
+			if(uri != null && !uri.isEmpty()) {
+				this._uri = uri;
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	protected void setUserAgent(String ua) {
+		try {	
+			if(ua != null && !ua.isEmpty()) {
+				this._userAgent = ua;
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,34 @@
+package il.co.bgurent.apis;
+
+public abstract class AbstractAPIs {
+	
+	String _rent;
+	String _rooms;
+	int    _sectionId;
+	
+	public AbstractAPIs() {
+		
+	}
+	
+	
+	// GETTERS 
+	protected String getRent() {
+		return _rent;
+	}
+	protected String getRooms() {
+		return _rooms;
+	}
+	protected int getSectionID() {
+		return _sectionId;
+	}
+	// SETTERS
+	protected void setRent(String rnt) {
+		this._rent = rnt;
+	}
+	protected void setRooms(String rms) {
+		this._rooms = rms;
+	}
+	protected void setSectionID(int secId) {
+		this._sectionId = secIdl
+	}
+}

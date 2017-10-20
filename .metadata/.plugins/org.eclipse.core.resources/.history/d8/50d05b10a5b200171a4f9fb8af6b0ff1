@@ -1,0 +1,43 @@
+# This file contain all the element's locators as properties 
+# Example:
+#
+# Property 'searchField' contains the driver.findElement(By.id("search-box"));
+#
+# searchField=id:search-box
+
+mainLoader=className:i.welcome-load.loader
+		this.loaderLabel = 
+				mainLoader.findElement(By.cssSelector("label"));
+		this.loginView = 
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.login']"));
+		this.registerView = 
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.register']"));
+		this.profileBtn = 
+				 driver.findElement(By.xpath("//*/a[@ng-if='$ctrl.isConnected']"));
+		this.profilePannel =
+				 driver.findElement(By.className("dropdown-menu"))
+				 			   .findElements(By.cssSelector("li"));
+		this.langBox = 
+				 driver.findElement(By.cssSelector("a.dropdown-toggle"));
+		this.langControl =
+				 driver.findElement(By.cssSelector("ul.dropdown-menu"))
+	   				  			    .findElements(By.cssSelector("li"));
+		this.favoritesView =
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.favorites']"));
+		this.contactUsView = 
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.contact']"));
+		this.aboutView = 
+				 driver.findElement(By.xpath("//*/a[@ui-sref='home.about']"));
+		this.mainView = 
+				 driver.findElement(By.cssSelector("a.navbar-brand"));
+		this.formElementsList =
+				driver.findElement(By.xpath("//form[@name='login']"))
+					         .findElement(By.cssSelector("fieldset"))
+							 .findElements(By.className("form-group"));
+		this.footer = 
+				 driver.findElement(By.cssSelector("footer>div.footer-block.frame-width"));
+		this.footerContentRight = 
+				 driver.findElement(By.className("right"));
+		this.footerContentLeft = 
+				 driver.findElement(By.className("left"))
+				 	   .findElements(By.cssSelector("a"));

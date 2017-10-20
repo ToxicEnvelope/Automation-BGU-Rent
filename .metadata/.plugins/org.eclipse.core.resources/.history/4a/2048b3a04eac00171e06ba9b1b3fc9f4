@@ -1,8 +1,0 @@
-package il.co.bgurent.tests;
-
-public class Discovery {
-
-	// FIELDS
-	WebDriver driver;
-	WebElememt elem;
-}

@@ -1,0 +1,13 @@
+package il.co.bgurent.tests;
+
+public class SearchAPITest {
+
+	
+	// FIELDS
+	SearchAPI api = new SearchAPI();
+	
+	@BeforeClass
+	public void startUp() {
+		
+	}
+}

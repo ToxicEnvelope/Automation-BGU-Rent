@@ -1,0 +1,9 @@
+package il.co.bgurent.apis;
+
+import org.apache.http.HttpRequest;
+
+public abstract class AbstractAPIs extends HttpRequest {
+	
+
+		
+}

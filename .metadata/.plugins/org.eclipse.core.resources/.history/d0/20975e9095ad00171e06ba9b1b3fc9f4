@@ -1,0 +1,5 @@
+package il.co.bgurent.helper;
+
+public interface I_UIMap {
+
+}

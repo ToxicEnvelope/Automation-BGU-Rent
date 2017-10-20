@@ -1,0 +1,12 @@
+package il.co.bgurent.tests;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+
+	
+	final WebDriver driver;
+	
+
+	
+}

@@ -1,0 +1,19 @@
+package il.co.bgurent.apis;
+
+
+public abstract class AbstractAPIs {
+	
+	protected final String uri = "";
+	protected final String USER_AGENT = "Mozilla/5.0";
+	
+	
+	// GETTERS
+	protected String getUserAgent() {
+		return USER_AGENT;
+	}
+	protected String getUri() {
+		return uri;
+	}
+	
+	
+}

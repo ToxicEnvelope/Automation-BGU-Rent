@@ -1,0 +1,15 @@
+package il.co.bgurent.apis;
+
+import com.google.gson.JsonObject;
+
+
+
+public abstract class AbstractAPIs {
+	
+	
+	// HTTP GET request
+	public abstract void sendGet(String uri, String token, String contry);
+	// HTTP POST request
+	public abstract void sendPost(String uri, String token, JsonObject data);
+		
+}
