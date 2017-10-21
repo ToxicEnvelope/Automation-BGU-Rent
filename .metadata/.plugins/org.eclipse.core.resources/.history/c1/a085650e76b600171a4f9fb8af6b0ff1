@@ -1,0 +1,5 @@
+package il.co.bgurent.apis;
+
+public interface IRequestProcessor {
+
+}

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="il.co.bgurent.tests.BaseTest">
+      <class name="il.co.bgurent.tests.SearchAPITest">
         <methods>
-          <include name="test"/>
-          <include name="startUp"/>
-          <include name="tearDown"/>
+          <include name="TEST_SearchAPI_GET"/>
         </methods>
-      </class> <!-- il.co.bgurent.tests.BaseTest -->
+      </class> <!-- il.co.bgurent.tests.SearchAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

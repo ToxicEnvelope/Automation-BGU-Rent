@@ -1,0 +1,44 @@
+package il.co.bgurent.tests;
+
+
+
+import java.util.Map.Entry;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
+import il.co.bgurent.apis.SearchAPI;
+
+
+public class SearchAPITest {
+
+	
+	// FIELDS
+	SearchAPI searchAPI = new SearchAPI("search");
+	
+	@Test
+	public void TEST_SearchAPI_GET() {
+		/*
+		 * 0/1 <= x <= 100,000
+		 * 0/1 <= y <= 10
+		 * 0/1 <= z <= 7
+		 * Passing 0 will assure that the parameter's field will not be sent in the API call.
+		 */
+		// Simple Coverage
+//		searchAPI.sendGET(1,1,1);		// 1% 
+//		searchAPI.sendGET(50000,5,4);   // 50%
+//		searchAPI.sendGET(100000,10,7); // 100%
+//		// Boundary Values
+//		searchAPI.sendGET(100001,11,8); // out of bound  --> returns empty array
+//		searchAPI.sendGET(-1,-1,-1);	// Negative test
+//		// JSON Data Fetch
+		JsonObject jsObj = searchAPI.sendGETJson(60000,10,5);
+		for(Entry<String, JsonElement> entry : jsObj.entrySet()) {
+			JsonElement val = entry.getValue();
+			Assert.assertEquals(val, "[{"id":3,"address":"רינגלבלום 5","rent":60000,"rooms":10,"roommates_number":null,"phone":"0qqqq2qqqq","entry_date":null,"empty":0,"note":"Cool place to live in","images":["apartments/3/17784f97df20be808f298df954c0adbd"],"latitude":31.2661448,"longitude":34.7999209,"smoke":true,"garden":true,"pets":true,"furnished":true,"elevator":true,"air_conditioned":true,"parking":true,"washing_machine":true,"created_at":"2017-10-20 16:21:24","updated_at":"2017-10-20 16:21:25","section":{"id":5,"name":"שכונה ד / ו הישנה"},"gate":{"id":1,"name":"שער 90","distance":249},"entry_date_format":"21.10","created_at_humans":"לפני יום","owner":{"id":1,"name":"bob","email":"nir@nir.com","gender":"male","profile_img":"users/1/826a795d56a2722173b7a1952af2c7ac"}}]");
+		}
+	}
+}

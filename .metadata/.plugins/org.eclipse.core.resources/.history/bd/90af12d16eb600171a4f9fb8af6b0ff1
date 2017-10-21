@@ -1,0 +1,20 @@
+package il.co.bgurent.tests;
+
+
+
+import org.testng.annotations.Test;
+
+import il.co.bgurent.apis.SearchAPI;
+
+public class SearchAPITest {
+
+	
+	// FIELDS
+	SearchAPI searchAPI = new SearchAPI("search");
+	
+	@Test
+	public void startUp() {
+		
+		searchAPI.sendGET();
+	}
+}

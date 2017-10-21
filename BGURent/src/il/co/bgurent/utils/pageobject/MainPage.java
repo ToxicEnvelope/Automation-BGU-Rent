@@ -34,78 +34,64 @@ public class MainPage extends BasePage {
 	// Profile dropdown pannel
 	List<WebElement> profilePannel = new ArrayList<WebElement>();
 	// Language button
+	@FindBy(xpath="a.dropdown-toggle")
 	WebElement langBox;
 	// Language dropdown pannel
 	List<WebElement> langControl = new ArrayList<WebElement>();
 	// Favorite page view
+	@FindBy(xpath="//*/a[@ui-sref='home.favorites']")
 	WebElement favoritesView;
 	// Contact page view
+	@FindBy(xpath="//*/a[@ui-sref='home.contact']")
 	WebElement contactUsView;
 	// About page view
+	@FindBy(xpath="//*/a[@ui-sref='home.about']")
 	WebElement aboutView;
 	// Home page view
+	@FindBy(xpath="a.navbar-brand")
 	WebElement mainView;										
 	// Inner Page top-pannel //
 	// Add new apartment button
+	@FindBy(xpath="//*/a[@ui-sref='home.addNewApartmet']")
 	WebElement addNewApt;
 	// Rent per month field
+	@FindBy(xpath="//*/a[@ng-model='$ctrl.search.rent']")
 	WebElement rentPerMonth;
 	// Total rooms field
+	@FindBy(xpath="//*/a[ng-model='$ctrl.search.rooms']")
 	WebElement totalRooms;
 	// Select list neighborhood type
+	@FindBy(xpath="//*/a[@ng-model='$ctrl.search.section_id']")
 	Select hoodType;
 	// Search button
+	@FindBy(xpath="//*/a[ng-model='$ctrl.onSearchClick()']")
 	WebElement searchBtn;
 	// Advance search button
+	@FindBy(xpath="//*/a[@ng-model='!$ctrl.showAdvance']")
 	WebElement showAdvance;
 	// Main content wrap // 
 	// Content wrap
 	List<WebElement> contentWrapper = new ArrayList<WebElement>();
 	// Footer //
+	@FindBy(css="footer>div.footer-block.frame-width")
 	WebElement footer;
+	@FindBy(css=".right")
 	WebElement footerContentRight;
 	List<WebElement> footerContentLeft = new ArrayList<WebElement>();
 	
 	// CONSTRUCTOR
 	public MainPage(WebDriver driver) {
 		super(driver);
-	
-		
 		this.profilePannel =
 				 driver.findElement(By.className("dropdown-menu"))
 				 			   .findElements(By.cssSelector("li"));
-		this.langBox = 
-				 driver.findElement(By.cssSelector("a.dropdown-toggle"));
 		this.langControl =
 				 driver.findElement(By.cssSelector("ul.dropdown-menu"))
-	   				  			    .findElements(By.cssSelector("li"));
-		this.favoritesView =
-				 driver.findElement(By.xpath("//*/a[@ui-sref='home.favorites']"));
-		this.contactUsView = 
-				 driver.findElement(By.xpath("//*/a[@ui-sref='home.contact']"));
-		this.aboutView = 
-				 driver.findElement(By.xpath("//*/a[@ui-sref='home.about']"));
-		this.mainView = 
-				 driver.findElement(By.cssSelector("a.navbar-brand"));
-		this.addNewApt = 
-				 driver.findElement(By.xpath("//*/a[@ui-sref='home.addNewApartmet']"));
-		this.rentPerMonth = 
-				 driver.findElement(By.xpath("//*/a[@ng-model='$ctrl.search.rent']"));
-		this.totalRooms = 
-				 driver.findElement(By.xpath("//*/a[ng-model='$ctrl.search.rooms']"));
-		this.hoodType = 
-				 new Select(driver.findElement(By.xpath("//*/a[@ng-model='$ctrl.search.section_id']")));
-		this.searchBtn = 
-				 driver.findElement(By.xpath("//*/a[ng-model='$ctrl.onSearchClick()']"));
-		this.showAdvance = 
-				 driver.findElement(By.xpath("//*/a[@ng-model='!$ctrl.showAdvance']"));
+	   				  		   .findElements(By.cssSelector("li")); 
+				 
 		this.contentWrapper = 
 				 driver.findElement(By.className("main-content-wrap"))
-				 	   					.findElements(By.xpath("//*"));
-		this.footer = 
-				 driver.findElement(By.cssSelector("footer>div.footer-block.frame-width"));
-		this.footerContentRight = 
-				 driver.findElement(By.className("right"));
+				 	   		   .findElements(By.xpath("//*"));
 		this.footerContentLeft = 
 				 driver.findElement(By.className("left"))
 				 	   .findElements(By.cssSelector("a"));

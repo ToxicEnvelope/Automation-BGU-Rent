@@ -1,0 +1,60 @@
+package il.co.bgurent.tests;
+
+
+
+import java.util.Map.Entry;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
+import il.co.bgurent.apis.SearchAPI;
+import il.co.bgurent.utils.helper.UIMap;
+
+
+public class SearchAPITest {
+
+	
+	// FIELDS
+	SearchAPI searchAPI = new SearchAPI("search");
+	static final String DATA = System.getProperty("user.dir") + "/src/il/co/bgurent/or/datafile.properties";
+	String data = '[{"id":3,"address":"\u05E8\u05D9\u05E0\u05D2\u05DC\u05D1\u05DC\u05D5\u05DD 5","rent":60000,"rooms":10,"roommates_number":null,"phone":"0qqqq2qqqq","entry_date":null,"empty":0,"note":"Cool place to live in","images":["apartments/3/17784f97df20be808f298df954c0adbd"],"latitude":31.2661448,"longitude":34.7999209,"smoke":true,"garden":true,"pets":true,"furnished":true,"elevator":true,"air_conditioned":true,"parking":true,"washing_machine":true,"created_at":"2017-10-20 16:21:24","updated_at":"2017-10-20 16:21:25","section":{"id":5,"name":"\u05E9\u05DB\u05D5\u05E0\u05D4 \u05D3 / \u05D5 \u05D4\u05D9\u05E9\u05E0\u05D4"},"gate":{"id":1,"name":"\u05E9\u05E2\u05E8 90","distance":249},"entry_date_format":"21.10","created_at_humans":"\u05DC\u05E4\u05E0\u05D9 \u05D9\u05D5\u05DD","owner":{"id":1,"name":"bob","email":"nir@nir.com","gender":"male","profile_img":"users/1/826a795d56a2722173b7a1952af2c7ac"}}]'.toString();
+	
+	@Test
+	public void TEST_SearchAPI_GET() throws Exception {
+		/*
+		 * 0/1 <= x <= 100,000
+		 * 0/1 <= y <= 10
+		 * 0/1 <= z <= 7
+		 * Passing 0 will assure that the parameter's field will not be sent in the API call.
+		 */
+		// Simple Coverage
+		searchAPI.sendGET(1,1,1);		// 1% 
+		searchAPI.sendGET(50000,5,4);   // 50%
+		searchAPI.sendGET(100000,10,7); // 100%
+
+		// Boundary Values
+		searchAPI.sendGET(100001,11,8); // out of bound  --> returns empty array
+		searchAPI.sendGET(-1,-1,-1);	// Negative test
+		
+		// Single uri
+		searchAPI.sendGET(0,0,0);
+		searchAPI.sendGET(0,0,1);
+		searchAPI.sendGET(0,1,0);
+		searchAPI.sendGET(0,1,1);
+		searchAPI.sendGET(1,0,0);
+		searchAPI.sendGET(1,0,1);
+		searchAPI.sendGET(1,1,0);
+		searchAPI.sendGET(1,1,1);
+		
+		// JSON Data Fetch
+		JsonObject jsObj = searchAPI.sendGETJson(60000,10,5);
+		for(Entry<String, JsonElement> entry : jsObj.entrySet()) {
+			JsonElement val = entry.getValue();
+			new UIMap(DATA);
+			Assert.assertEquals(val, data);
+		}
+	}
+}

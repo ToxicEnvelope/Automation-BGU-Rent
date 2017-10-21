@@ -1,0 +1,31 @@
+package il.co.bgurent.tests;
+
+
+
+import org.testng.annotations.Test;
+
+import il.co.bgurent.apis.SearchAPI;
+
+public class SearchAPITest {
+
+	
+	// FIELDS
+	SearchAPI searchAPI = new SearchAPI("search");
+	
+	@Test
+	public void TEST_SearchAPI_GET() {
+		/*
+		 * 0/1 <= x <= 100,000
+		 * 0/1 <= y <= 10
+		 * 0/1 <= z <= 7
+		 * Passing 0 will assure that the parameter's field will not be sent in the API call.
+		 */
+		// Simple Coverage
+		searchAPI.sendGET(1,1,1);		// 1% 
+		searchAPI.sendGET(50000,5,4);   // 50%
+		searchAPI.sendGET(100000,10,7); // 100%
+		// Boundary Values
+		searchAPI.sendGET(100001,11,8); // out of bound
+		searchAPI.sendGET(-1,-1,-1);	// Negative test
+	}
+}
