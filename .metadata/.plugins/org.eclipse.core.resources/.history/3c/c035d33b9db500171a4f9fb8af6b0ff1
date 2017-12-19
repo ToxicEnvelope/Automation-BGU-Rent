@@ -1,9 +1,0 @@
-package il.co.bgurent.apis;
-
-
-public class SearchAPI extends AbstractAPIs {
-
-	private 
-	
-	
-}

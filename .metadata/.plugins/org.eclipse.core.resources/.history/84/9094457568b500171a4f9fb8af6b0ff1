@@ -1,7 +1,0 @@
-package il.co.bgurent.utils.pageobject;
-
-public abstract class AbstractAPIs {
-	
-	
-
-}

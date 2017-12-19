@@ -1,7 +1,0 @@
-# This file contain all the element's locators as properties 
-# Example:
-#
-# Property 'searchField' contains the driver.findElement(By.id("search-box"));
-#
-# searchField=id:search-box
-

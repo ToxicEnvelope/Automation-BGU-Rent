@@ -1,9 +1,0 @@
-CHROME_ENGINE=webdriver.chrome.driver
-CHROME_WDPATH="/libs/Drivers/chromedriver"
-FIREFOX_ENGINE="webdriver.gecko.driver"
-FIREFOX_WDPATH="/libs/Drivers/geckodriver"
-SAFARI_ENGINE="webdriver.safari.driver"
-SAFARI_WDPATH="/libs/Drivers/safaridriver"
-IE_ENGINE="webdriver.ie.driver"
-IE_WDPATH="/libs/Drivers/iedriver"
-
