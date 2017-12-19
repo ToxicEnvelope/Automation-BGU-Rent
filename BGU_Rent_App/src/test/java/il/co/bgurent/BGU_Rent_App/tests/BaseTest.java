@@ -8,35 +8,34 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import il.co.bgurent.BGU_Rent_App.core.utils.UIMap;
+import il.co.bgurent.BGU_Rent_App.core.utils.Mapper;
 
 
 public class BaseTest {
 
 	
 	static WebDriver driver;
-	static final String CONF = System.getProperty("user.dir") + "/src/il/co/bgurent/or/config.properties";
-	static final String DATA = System.getProperty("user.dir") + "/src/il/co/bgurent/or/datafile.properties";
+	static final String CONF = System.getProperty("user.dir") + "/src/main/java/il/co/bgurent/BGU_Rent_App/core/or/config.properties";
+	static final String DATA = System.getProperty("user.dir") + "/src/main/java/il/co/bgurent/BGU_Rent_App/core/or/datafile.properties";
 
 	@BeforeClass
 	public void startUp() throws Exception {
-		new UIMap(CONF);
-		driver = UIMap.getDriver("CHROME");
-		new UIMap(DATA);
-		driver.get(UIMap.getData("URL"));
+		new Mapper(CONF);
+		driver = Mapper.getDriver("CHROME");
+		new Mapper(DATA);
+		driver.get(Mapper.getData("QA_URL"));
 		driver.manage().timeouts().implicitlyWait(7500, TimeUnit.MILLISECONDS);
 	}
 	
 	@AfterClass
 	public void tearDown() throws Exception {
 		if(driver != null) {
-			driver.manage().deleteAllCookies();
 			driver.quit();
 		}
 	}
 	
 	@Test
 	public void TEST_Title() throws Exception {
-		Assert.assertEquals(driver.getTitle(), UIMap.getData("TITLE"));
+		Assert.assertEquals(driver.getTitle(), Mapper.getData("TITLE"));
 	}
 }

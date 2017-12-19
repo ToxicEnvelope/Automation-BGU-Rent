@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-import il.co.bgurent.BGU_Rent_App.core.utils.UIMap;
-import il.co.bgurent.apis.SearchAPI;
+import il.co.bgurent.BGU_Rent_App.core.apis.SearchAPI;
 
 
 public class SearchAPITest {

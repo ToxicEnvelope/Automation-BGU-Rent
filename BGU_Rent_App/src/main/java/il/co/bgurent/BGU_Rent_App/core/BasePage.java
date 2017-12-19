@@ -12,6 +12,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -21,9 +22,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public abstract class BasePage {
 
 	// FIELDS
-	WebDriver _driver;
-	JavascriptExecutor _js;
-	TakesScreenshot _snapShot;
+	private WebDriver _driver;
+	protected JavascriptExecutor _js;
+	private TakesScreenshot _snapShot;
 	
 	// CONSTRUCTOR
 	public BasePage(WebDriver driver) {
@@ -75,14 +76,18 @@ public abstract class BasePage {
 		try {
 			if(element != null && element.isDisplayed()) {
 				this._js = (JavascriptExecutor) _driver;
-				this._js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid blue;');", element);
+				_js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid blue');", element);
 				element.click();
-				wait(2500);
+				wait(1000);
 				takeSnapShot();
 			}
 		}
-		catch (Exception ex) {
-			ex.printStackTrace();
+		catch (WebDriverException e) {
+			this._js = (JavascriptExecutor) _driver;
+			_js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green');");
+			_js.executeScript("arguments[0].click();");
+			wait(1000);
+			takeSnapShot();
 		}
 	}
 	// Fill text 
@@ -91,23 +96,33 @@ public abstract class BasePage {
 			if(element != null && keyword != "") {
 				if(element.getText().isEmpty()) {
 					this._js = (JavascriptExecutor) _driver;
-					this._js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green;');", element);
+					_js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green');", element);
 					element.sendKeys(keyword);
-					wait(2500);
+					wait(1000);
 					takeSnapShot();
 				}
 				else {
 					this._js = (JavascriptExecutor) _driver;
-					this._js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green;');", element);
+					_js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid green');", element);
 					element.clear();
 					element.sendKeys(keyword);
-					wait(2500);
+					wait(1000);
 					takeSnapShot();
 				}
 			}
 		}
-		catch (Exception ex) {
-			ex.printStackTrace();
+		catch (WebDriverException e) {
+			this._js = (JavascriptExecutor) _driver;
+			_js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid yellow');");
+			_js.executeScript("if(arguments[0].value != null || arguments[0].value != undefined) "
+							+ "{ "
+								+ "arguments[0].reset(); "
+								+ "arguments[0].value="+keyword+"; "
+							+ "} else { "
+								+ "arguments[0].value="+keyword+"; "
+							+ "}");
+			wait(1000);
+			takeSnapShot();
 		}
 	}
 	// Take Screen Shot
@@ -117,7 +132,7 @@ public abstract class BasePage {
 		try {
 			Calendar c = Calendar.getInstance();
 			Date suffix = c.getTime();
-			FileUtils.copyFile(src, new File("./ScreenShots/"+suffix+".png"));
+			FileUtils.copyFile(src, new File(System.getProperty("user.dir") + "/src/ScreenShots/"+suffix+".png"));
 		}
 		catch (IOException ex) {
 			ex.printStackTrace();
@@ -130,63 +145,79 @@ public abstract class BasePage {
 		try {
 			Calendar c = Calendar.getInstance();
 			Date suffix = c.getTime();
-			FileUtils.copyFile(src, new File("./ScreenShots/"+tcerr+suffix+".png"));
+			FileUtils.copyFile(src, new File(System.getProperty("user.dir") + "/src/ScreenShots/"+tcerr+suffix+".png"));
 		}
 		catch (IOException ex) {
 			ex.printStackTrace();
 		}
 	}
 	// Waits until an element is located By.id
-	public boolean waitUntilElementLocatedByID(String idAttribute) {
+	public WebElement waitUntilElementLocatedByID(String idAttribute) {
 		try {
-			if(idAttribute != null) {
-				 WebDriverWait wait = new WebDriverWait(this._driver, 10);				 
-				 return wait.until(ExpectedConditions.invisibilityOfElementLocated(By.id(idAttribute)));
-			}
-			return false;
+			WebDriverWait wait = new WebDriverWait(_driver, 10);
+			return wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(idAttribute)));
 		}
 		catch (Exception ex) {
 			ex.printStackTrace();
-			return false;
+			return null;
+		}
+	}
+	public WebElement waitUntilElementPresenceById(String id) {
+		try {
+			WebDriverWait wait = new WebDriverWait(_driver, 10);
+			return wait.until(ExpectedConditions.presenceOfElementLocated(By.id(id)));
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+			return null;
 		}
 	}
 	// Waits until an element is located By.className
-	public boolean waitUntilElementLocatedByClassName(String clsAttribute) {
+	public WebElement waitUntilElementLocatedByClassName(String clsAttribute) {
 		try {
-			if(clsAttribute != null) {
-				 WebDriverWait wait = new WebDriverWait(this._driver, 10);				 
-				 return wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className(clsAttribute)));
-			}
-			return false;	
+			WebDriverWait wait = new WebDriverWait(_driver, 10);
+			return wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(clsAttribute)));
 		}
 		catch (Exception ex) {
 			ex.printStackTrace();
-			return false;
+			return null;
+		}
+	}
+	public WebElement waitUntilElementPresenceByClassName(String cls) {
+		try {
+			WebDriverWait wait = new WebDriverWait(_driver, 10);
+			return wait.until(ExpectedConditions.presenceOfElementLocated(By.className(cls)));
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+			return null;
 		}
 	}
 	// Waits until an element is located By.xpath
-	public boolean waitUntilElementLocatedByXPath(String xpath) {
+	public WebElement waitUntilElementLocatedByXPath(String xpath) {
 		try {
-			if(xpath != null) {
-				 WebDriverWait wait = new WebDriverWait(this._driver, 10);				 
-				 return wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(xpath)));
-			}
-			return false;
+			WebDriverWait wait = new WebDriverWait(_driver, 10);
+			return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
 		}
 		catch (Exception ex) {
 			ex.printStackTrace();
-			return false;
+			return null;
+		}
+	}
+	public WebElement waitUntilElementPresenceByXPath(String xpath) {
+		try {
+			WebDriverWait wait = new WebDriverWait(_driver, 10);
+			return wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
+		}
+		catch (Exception ex) {
+			ex.printStackTrace();
+			return null;
 		}
 	}
 	// Implicite wait to handle webdriver timeouts
 	public void wait(int mSeconds) {
 		try {
-			if(mSeconds < 0) {
-				this._driver.manage().timeouts().implicitlyWait(mSeconds, TimeUnit.MILLISECONDS);
-			}
-			else {
-				this._driver.manage().timeouts().implicitlyWait(2500, TimeUnit.MILLISECONDS);
-			}
+			Thread.sleep(mSeconds);
 		}
 		catch (Exception ex) {
 			ex.printStackTrace();

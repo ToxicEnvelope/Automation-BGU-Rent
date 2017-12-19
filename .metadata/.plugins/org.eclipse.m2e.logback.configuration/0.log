@@ -67,3 +67,293 @@
 2017-12-19 20:24:02,318 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
 2017-12-19 20:24:02,321 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-19 20:24:02,322 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:21:22,868 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: il.co.bgurent:BGU_Rent_App:0.0.1-SNAPSHOT @ /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/pom.xml.
+2017-12-19 21:21:26,922 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:21:26,923 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:21:26,933 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:21:26,934 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:21:36,924 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:21:36,925 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:21:36,933 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:21:36,934 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:23:30,087 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: il.co.bgurent:BGU_Rent_App:0.0.1-SNAPSHOT @ /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/pom.xml.
+2017-12-19 21:23:31,774 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:23:31,775 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:23:31,788 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:23:31,789 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:23:35,272 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:23:35,281 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:23:35,288 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:23:35,289 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:24:20,138 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:24:20,138 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:24:20,143 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:24:20,144 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:26:03,402 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:26:03,402 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:26:03,406 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:26:03,406 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:27:25,774 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:27:25,775 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:27:25,781 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:27:25,781 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:27:33,685 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:27:33,686 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:27:33,692 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:27:33,693 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:30:47,026 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:30:47,026 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:30:47,030 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:30:47,030 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:32:14,862 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:32:14,863 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:32:14,870 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:32:14,871 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:32:33,218 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:32:33,218 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:32:33,221 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:32:33,222 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:34:33,825 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:34:33,825 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:34:33,831 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:34:33,831 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:35:29,901 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:35:29,902 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:35:29,907 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:35:29,907 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:39:12,563 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:39:12,564 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:39:12,567 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:39:12,568 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:39:33,043 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:39:33,044 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:39:33,049 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:39:33,049 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:40:36,431 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:40:36,432 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:40:36,438 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:40:36,439 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:41:04,883 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:41:04,884 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:41:04,890 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:41:04,890 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:41:40,213 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:41:40,213 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:41:40,221 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:41:40,222 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:41:47,206 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:41:47,207 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:41:47,214 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:41:47,214 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:47:32,671 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:47:32,672 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:47:32,675 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:47:32,676 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:48:36,415 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:48:36,416 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:48:36,418 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:48:36,419 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:48:50,316 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:48:50,317 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:48:50,322 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:48:50,322 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:50:04,374 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:50:04,375 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:50:04,379 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:50:04,379 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:50:18,542 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:50:18,543 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:50:18,546 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:50:18,547 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:51:00,946 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:51:00,947 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:51:00,952 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:51:00,952 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:51:38,403 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:51:38,403 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:51:38,407 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:51:38,408 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:53:22,952 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:53:22,953 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:53:22,955 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:53:22,956 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:54:11,274 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:11,274 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:54:11,277 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:11,277 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:54:20,021 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:20,021 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:54:20,026 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:20,026 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:54:27,777 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:27,778 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:54:27,782 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:27,783 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:54:55,979 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:55,980 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:54:55,982 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:54:55,982 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:56:26,833 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:56:26,834 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:56:26,840 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:56:26,841 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:56:34,071 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:56:34,072 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:56:34,075 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:56:34,077 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:56:47,294 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:56:47,295 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:56:47,299 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:56:47,301 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:57:43,753 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:57:43,754 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:57:43,758 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:57:43,758 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:58:09,238 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:09,239 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:58:09,241 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:09,242 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:58:24,506 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:24,506 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:58:24,510 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:24,510 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:58:32,809 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:32,809 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:58:32,812 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:32,813 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:58:47,973 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:47,973 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:58:47,976 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:58:47,977 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:59:23,671 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:59:23,672 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:59:23,675 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:59:23,676 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 21:59:46,018 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:59:46,019 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 21:59:46,024 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 21:59:46,025 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:00:26,665 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:00:26,665 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:00:26,669 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:00:26,670 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:00:51,064 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:00:51,065 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:00:51,068 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:00:51,069 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:03:24,716 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:03:24,716 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:03:24,720 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:03:24,720 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:08:00,220 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:08:00,221 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:08:00,225 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:08:00,226 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:09:48,897 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:09:48,897 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:09:48,902 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:09:48,902 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:10:19,704 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:10:19,705 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:10:19,709 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:10:19,710 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:10:30,539 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:10:30,540 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:10:30,548 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:10:30,549 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:11:00,641 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:11:00,642 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:11:00,646 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:11:00,647 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:11:28,848 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:11:28,849 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:11:28,851 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:11:28,852 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:12:00,154 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:12:00,155 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:12:00,157 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:12:00,157 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:12:48,755 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:12:48,755 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:12:48,758 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:12:48,758 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:14:51,636 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:14:51,638 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:14:51,640 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:14:51,640 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:19:24,266 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:19:24,266 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:19:24,268 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:19:24,269 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:19:26,939 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:19:26,939 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:19:26,942 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:19:26,942 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:20:15,031 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:20:15,032 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:20:15,036 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:20:15,036 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:21:27,886 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:21:27,887 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:21:27,889 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:21:27,890 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:23:05,132 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:23:05,132 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:23:05,134 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:23:05,135 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:24:41,585 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:24:41,585 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:24:41,588 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:24:41,589 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:24:50,612 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:24:50,613 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:24:50,616 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:24:50,617 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:25:59,324 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:25:59,325 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:25:59,327 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:25:59,328 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:27:13,715 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:27:13,716 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:27:13,718 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:27:13,719 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:27:30,649 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:27:30,649 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:27:30,652 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:27:30,653 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:28:43,443 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:28:43,443 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:28:43,447 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:28:43,447 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:29:24,790 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:29:24,790 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:29:24,793 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:29:24,793 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:29:46,276 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:29:46,276 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:29:46,280 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:29:46,280 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:29:55,890 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:29:55,891 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:29:55,894 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:29:55,895 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:31:26,228 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:31:26,228 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:31:26,231 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:31:26,231 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:32:12,081 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:32:12,081 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:32:12,083 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:32:12,084 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:33:35,295 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:33:35,296 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:33:35,299 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:33:35,300 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:34:09,414 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:34:09,415 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:34:09,420 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:34:09,420 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
+2017-12-19 22:35:03,008 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:35:03,008 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/main/resources
+2017-12-19 22:35:03,011 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 22:35:03,011 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sysmurff/Desktop/GIT/Automation-BGU-Rent/BGU_Rent_App/src/test/resources
