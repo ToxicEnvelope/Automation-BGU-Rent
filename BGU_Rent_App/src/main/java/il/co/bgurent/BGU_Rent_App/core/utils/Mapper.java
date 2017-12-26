@@ -38,13 +38,13 @@ public class Mapper {
 			case "chrome":
 				System.setProperty(Mapper.getData("CHROME_ENGINE"), Mapper.getData("CHROME_WDPATH"));
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--incognito --start-maximized");
+				options.addArguments("--start-maximized");
 				return new ChromeDriver(options);
 			// default
 			default:
 				System.setProperty(Mapper.getData("CHROME_ENGINE"), Mapper.getData("CHROME_WDPATH"));
 				ChromeOptions opts = new ChromeOptions();
-				opts.addArguments("--incognito --start-maximized");
+				opts.addArguments("--start-maximized");
 				return new ChromeDriver(opts);
 			}
 		}

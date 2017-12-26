@@ -6,8 +6,9 @@
       <class name="il.co.bgurent.BGU_Rent_App.tests.BaseTest">
         <methods>
           <include name="startUp"/>
+          <include name="TEST_TITLE_AND_LOGIN_AUTHENTICATION"/>
           <include name="tearDown"/>
-          <include name="TEST_Title"/>
+          <include name="TEST_TITLE_AND_FAIL_TO_AUTHENTICATION"/>
         </methods>
       </class> <!-- il.co.bgurent.BGU_Rent_App.tests.BaseTest -->
     </classes>
